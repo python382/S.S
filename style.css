@@ -1,6 +1,6 @@
 .rectangle {
     width: 400px;
-    height: 5lh;
+    height: 10lh;
     border: 2px solid #222;
     box-sizing: border-box;
     overflow: auto;
