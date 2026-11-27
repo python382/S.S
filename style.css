@@ -1,0 +1,8 @@
+.rectangle {
+    width: 360px;
+    height: 160px;
+    border: 2px solid #222;
+    box-sizing: border-box;
+    overflow: auto;
+    border-radius: 25px;
+}
