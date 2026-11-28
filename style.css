@@ -1,18 +1,29 @@
+body {
+    background-color: #071426;
+    color: #E2E8F0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Top branding bar */
 header {
+    background-color: #102442;
+    color: #FFFFFF;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
-    font-size: 13px;
-}
-:root {
-    --background: #071426;
-    --surface: #102442;
-    --accent: #2563EB;
-    --text: #E2E8F0;
+
+    padding: 16px 20px;
+    font-size: 14px;
 }
 
-body {
-    background-color: var(--background);
-    color: var(--text);
+/* Chapter headings */
+h1, h2, h3 {
+    color: #93C5FD;
+}
+
+/* Lists */
+li {
+    line-height: 1.7;
 }
