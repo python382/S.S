@@ -1,8 +1,18 @@
-.rectangle {
-    width: 400px;
-    height: 10lh;
-    border: 2px solid #222;
-    box-sizing: border-box;
-    overflow: auto;
-    border-radius: 25px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    font-size: 13px;
+}
+:root {
+    --background: #071426;
+    --surface: #102442;
+    --accent: #2563EB;
+    --text: #E2E8F0;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
 }
